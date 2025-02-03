@@ -8,10 +8,17 @@ public class Main {
 		Mur mur = new Mur(3, true);
 		System.out.println("resultat : " + mur.getLongeur());
 		mur.whoIAm();
+		afficher();
 	}
 
 	public static void afficher(final String name) {
 		String[] val = name.split("");
+		for (String lettre : val) {
+			System.out.println("Une fonction en Java a été exécutée " + lettre);
+		}
+	}
+	public static void afficher() {
+		String[] val = "bonjour".split("");
 		for (String lettre : val) {
 			System.out.println("Une fonction en Java a été exécutée " + lettre);
 		}
