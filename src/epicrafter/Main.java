@@ -4,19 +4,15 @@ public class Main {
 	public static void main(String[] args) {
 		String name = "Moi";
 		afficher(name);
-		final int result = addition(3, 3);
-		System.out.println("resultat : " + result);
+		Bloc bloc = new Bloc(6);
+		System.out.println("resultat : " + bloc.getLongeur());
 	}
 
-	public static void afficher(String name) {
+	public static void afficher(final String name) {
 		String[] val = name.split("");
 		for (String lettre : val) {
 			System.out.println("Une fonction en Java a été exécutée " + lettre);
 		}
-	}
-
-	public static int addition(final int num1, final int num2) {
-		return num1 + num2;
 	}
 
 	public static int decompte(final int valeur) {
