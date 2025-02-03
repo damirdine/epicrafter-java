@@ -5,7 +5,8 @@ public class Main {
 		String name = "Moi";
 		afficher(name);
 		Bloc bloc = new Bloc(6);
-		System.out.println("resultat : " + bloc.getLongeur());
+		Mur mur = new Mur(3, true);
+		System.out.println("resultat : " + mur.getLongeur());
 	}
 
 	public static void afficher(final String name) {
