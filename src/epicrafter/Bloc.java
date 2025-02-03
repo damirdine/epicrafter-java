@@ -1,6 +1,6 @@
 package epicrafter;
 
-public class Bloc {
+public class Bloc extends Base{
 	int longeur;
 
 	public Bloc(final int l) {
