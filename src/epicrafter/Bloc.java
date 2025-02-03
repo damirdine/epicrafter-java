@@ -3,7 +3,7 @@ package epicrafter;
 public class Bloc {
 	int longeur;
 
-	public Bloc(final int l){
+	public Bloc(final int l) {
 		this.longeur = l;
 	}
 
@@ -11,4 +11,7 @@ public class Bloc {
 		return longeur;
 	}
 
+	public void whoIAm() {
+		System.out.println("Iam bloc!");
+	}
 }

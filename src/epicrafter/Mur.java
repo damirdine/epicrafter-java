@@ -11,4 +11,9 @@ public class Mur extends Bloc {
     public boolean isPorteur() {
         return porteur;
     }
+
+    @Override
+    public void whoIAm() {
+		System.out.println("Iam Mur!");
+    }
 }

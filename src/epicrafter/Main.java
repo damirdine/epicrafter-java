@@ -7,6 +7,7 @@ public class Main {
 		Bloc bloc = new Bloc(6);
 		Mur mur = new Mur(3, true);
 		System.out.println("resultat : " + mur.getLongeur());
+		mur.whoIAm();
 	}
 
 	public static void afficher(final String name) {
