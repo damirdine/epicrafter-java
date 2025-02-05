@@ -9,6 +9,10 @@ public class Main {
 		mur.whoIAm();
 		Rempart rempart = new Rempart(mur);
 		System.out.println("le mur is traversable : " + rempart.isTraversable());
+		
+		Planet planet = new Planet("Terre");
+		System.out.println("nous somme sur la planete : " + planet.name());
+
 	}
 
 	public static void afficher(final String name) {
