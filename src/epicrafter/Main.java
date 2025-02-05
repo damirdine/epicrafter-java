@@ -4,11 +4,9 @@ public class Main {
 	public static void main(String[] args) {
 		String name = "Moi";
 		afficher(name);
-		// Bloc bloc = Bloc();
 		Mur mur = new Mur(3, true);
 		System.out.println("resultat : " + mur.getLongeur());
-		// mur.whoIAm();
-		// afficher();
+		mur.whoIAm();
 	}
 
 	public static void afficher(final String name) {
@@ -17,6 +15,7 @@ public class Main {
 			System.out.println("Une fonction en Java a été exécutée " + lettre);
 		}
 	}
+
 	public static void afficher() {
 		String[] val = "bonjour".split("");
 		for (String lettre : val) {
