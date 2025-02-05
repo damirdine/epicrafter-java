@@ -1,3 +1,10 @@
 package epicrafter;
 
-public record Planet(String name) {}
+// can use interface
+// but can not use for inheritance
+public record Planet(String name) implements IPlanet {
+    @Override
+    public void whoIAm() {
+        System.out.println("Hello from planet" + name);
+    }
+}
