@@ -7,6 +7,8 @@ public class Main {
 		Mur mur = new Mur(3, true);
 		System.out.println("resultat : " + mur.getLongeur());
 		mur.whoIAm();
+		Rempart rempart = new Rempart(mur);
+		System.out.println("le mur is traversable : " + rempart.isTraversable());
 	}
 
 	public static void afficher(final String name) {

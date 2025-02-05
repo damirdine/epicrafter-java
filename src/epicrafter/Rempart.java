@@ -1,9 +1,9 @@
 package epicrafter;
 
 public class Rempart {
-    private Mur mur;
+    private IBloc mur;
 
-    Rempart(final Mur m) {
+    Rempart(final IBloc m) {
         this.mur = m;
     }
 
