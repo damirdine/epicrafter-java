@@ -1,6 +1,6 @@
 package epicrafter;
 
-public class Bloc extends Base{
+public abstract class Bloc implements IBloc {
 	int longeur;
 
 	public Bloc(final int l) {

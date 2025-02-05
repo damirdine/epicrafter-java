@@ -4,10 +4,10 @@ public class Main {
 	public static void main(String[] args) {
 		String name = "Moi";
 		afficher(name);
-		Bloc bloc = new Bloc(6);
+		// Bloc bloc = Bloc();
 		Mur mur = new Mur(3, true);
 		System.out.println("resultat : " + mur.getLongeur());
-		mur.whoIAm();
+		// mur.whoIAm();
 		// afficher();
 	}
 
